@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { GlobalStyle } from './styles/GlobalStyle'
-import { Home } from "./pages/Home/index"
+import { RouteSoftware } from "./routes/index"
+import { BrowserRouter } from "react-router-dom"
 
 export function App() {
   return (
-    <>
-        <Home/>
-      </>
-      )
+      <BrowserRouter>
+        <GlobalStyle />
+        <RouteSoftware />
+      </BrowserRouter>
+  )
 
 }
