@@ -6,13 +6,28 @@ import * as S from "./style"
 export function Home() {
     return (
         <S.Section>
-            <ul>
-                <li><strong> Ver receitas</strong></li>
-                <li><strong>Postar minha receita</strong></li>
-                <li><strong>Doe para o site</strong></li>
-            </ul>
-            <img src={Cenoura} alt="cenoura" />
-            <img src={Beterraba} alt="beterraba" />
+
+            <section className="opcoes">
+                
+                <ul>
+
+                    <a href="/segundaPagina">
+                        <li><strong> Ver receitas</strong></li>
+                    </a>
+
+                    <li><strong>Postar minha receita</strong></li>
+                    <li><strong>Doe para o site</strong></li>
+                </ul>
+            </section>
+
+            <section className="beterrabaSection">
+                <img className="Beterraba" src={Beterraba} alt="beterraba" />
+            </section>
+
+            <section className="cenouraSection">
+                <img className="Cenoura" src={Cenoura} alt="cenoura" />
+            </section>
+
         </S.Section>
     )
 }

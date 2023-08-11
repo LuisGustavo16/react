@@ -8,9 +8,9 @@ export function Layout() {
   return (
     <>
       <ComponentHeader />
-      <S.Main>
+     
         <Outlet />
-      </S.Main>
+      
       <ComponentFooter />
     </>
   )

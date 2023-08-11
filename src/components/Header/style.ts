@@ -31,4 +31,8 @@ export const Header = styled.header`
         display: flex;
     }
 
+    a {
+        text-decoration: none;
+    }
+
 `
