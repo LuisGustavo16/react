@@ -10,7 +10,7 @@ export const Header = styled.header`
 
     picture{
         margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
         width: 20%;
         height: 95%;
 
@@ -27,12 +27,37 @@ export const Header = styled.header`
         text-align: center;
         text-shadow: 0.5rem 0.3rem 0rem black;
         font-size: 70px;
-
         display: flex;
     }
 
     a {
         text-decoration: none;
+    }
+
+    /*Responsivo*/
+
+    @media (max-width: 978px) {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width: 679px) {
+        h1 {
+            font-size: 2.3rem;
+        }
+    }
+
+    @media (max-width: 679px) {
+        h1 {
+            font-size: 1.7rem;
+
+        }
+
+        picture img {
+            display: none;
+        }
+
     }
 
 `

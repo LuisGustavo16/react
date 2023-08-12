@@ -9,7 +9,7 @@ export const Section = styled.section`
 
     ul {
         padding-left: 4rem;
-        width: 30%;
+        width: 80%;
         align-items: center;
 
         li {
@@ -18,7 +18,7 @@ export const Section = styled.section`
             font-family: 'Odor Mean Chey', serif;
             font-size: 2rem;
             background-color: ${colors.forth};
-            width: 30rem;
+            width: 100%;
             border-radius: 3rem;
             padding: 1.5rem;
             margin-bottom: 2rem;
@@ -33,7 +33,7 @@ export const Section = styled.section`
 
     section.opcoes {
         display: flex;
-        width: 40%;
+        width: 60%;
         height: 100%;
         align-items: center;
     }
@@ -57,18 +57,65 @@ export const Section = styled.section`
     }
 
     img.Beterraba {
-        height: 30rem;
-        width: 30rem;
+        height: 24rem;
+        width: 26rem;
     }
 
     img.Cenoura {
-        height: 26em;
-        width: 18rem;
+        height: 22em;
+        width: 16rem;
     }
 
     a {
         text-decoration: none;
         color: ${colors.black};
+    }
+
+    /*Responsivo*/
+
+    @media (max-width: 1277px) {
+        img.Cenoura {
+            display: none;
+        }
+
+        section.opcoes {
+            width: 90%;
+        }
+
+        section.beterrabaSection {
+            width: 10%;
+        }
+
+        img.Beterraba {
+            height: 25rem;
+            width: 25rem;
+        }
+    }
+
+    @media (max-width: 1059px) {
+
+        img.Beterraba {
+            display: none;
+        }
+    }
+
+    @media (max-width: 560px) {
+
+        ul li {
+            font-size: 1.5rem;
+        }
+
+        section.cenouraSection {
+            display: none;
+        }
+
+        section.beterrabaSection {
+            display: none;
+        }
+
+        section.opcoes {
+            width: 100%;
+        }
     }
 
 `
