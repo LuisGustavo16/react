@@ -22,11 +22,11 @@ export const Section = styled.section `
     }
 
     ul{
-        position: absolute;
+        position: fixed;
         z-index: 999;
         width: 10rem;
         height: 300px;
-        left: 83rem;
+        left: 100%;
         background-color: ${colors.forth};
         margin-left: 84px;
         transition: all ease .2s;
@@ -87,6 +87,6 @@ export const Section = styled.section `
 
     .hamburguer:checked ~ ul{
         margin-left: 0;
-        left: 78rem;
+        left: 92%;
     }
 `

@@ -15,7 +15,10 @@ export function Home() {
                         <li><strong> Ver receitas</strong></li>
                     </a>
 
-                    <li><strong>Postar minha receita</strong></li>
+                    <a href="/adicionar">
+                        <li><strong>Postar minha receita</strong></li>
+                    </a>
+
                     <li><strong>Doe para o site</strong></li>
                 </ul>
             </section>
