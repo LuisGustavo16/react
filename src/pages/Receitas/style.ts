@@ -3,12 +3,14 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Section = styled.section `
 
-    height: calc(100vh - 13rem);
+    min-height: calc(100vh - 13rem);
     background-color: ${colors.third};
 
     section.pesquisa {
+        display: flex;
         height: 20%;
         padding: 2rem;
+        width: 100%;
 
             input {
                 font-size: 1.6rem;
@@ -24,6 +26,21 @@ export const Section = styled.section `
         section.lista {
                 display: grid;
                 grid-template-columns: auto auto auto;
+        }
+
+        /*Responsivo*/
+
+        @media (max-width: 1387px) {
+            section.lista {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media (max-width: 910px) {
+            section.lista {
+                grid-template-columns: auto;
+                justify-content: center;
+            }
         }
 
 `

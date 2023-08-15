@@ -8,6 +8,7 @@ export const Section = styled.section `
         width: 35px;
         height: 35px;
         right: 20px;
+        top: 45px;
 
         span{
             display: block;
@@ -54,6 +55,7 @@ export const Section = styled.section `
         z-index: 1000;
         height: 35px;
         width: 35px;
+        top: 45px;
         cursor: pointer;
         opacity: 0;
         right: 20px;

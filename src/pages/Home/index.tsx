@@ -19,7 +19,10 @@ export function Home() {
                         <li><strong>Postar minha receita</strong></li>
                     </a>
 
-                    <li><strong>Doe para o site</strong></li>
+                    <a href="/pix">
+                        <li><strong>Doe para o site</strong></li>
+                    </a>
+                    
                 </ul>
             </section>
 

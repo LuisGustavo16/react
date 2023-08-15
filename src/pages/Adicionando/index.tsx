@@ -1,11 +1,17 @@
 import React from "react";
 import * as S from "./style"
 
-export function Adicionar () {
+export function Adicionar() {
     return (
         <S.Section>
-            <input type = "text" />
-            <button type = "button" > Enviar </button>
+            <section>
+                <input type="text" />
+            </section>
+
+            <section className= "envio">
+                <button type="submit">Enviar</button>
+            </section>
+
         </S.Section>
     )
 }

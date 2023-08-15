@@ -18,4 +18,10 @@ export const dados = [
         nota: 7,
     },
 
+    {
+        id: 4,
+        nome: "Carne",
+        nota: 100,
+    },
+
 ]
