@@ -35,4 +35,10 @@ export const Section = styled.section `
             color: ${colors.white};
         }
     }
+
+    @media (max-width: 662px) {
+        input {
+            width: 20rem;
+        }
+    }
 `

@@ -16,7 +16,7 @@ export function Hamburguer() {
                     <a href="">
                         <li>Entrar</li>
                     </a>
-                    <a href="">
+                    <a href="/Cadastro">
                         <li>Cadastrar</li>
                     </a>
                     <a href="">

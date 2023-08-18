@@ -27,11 +27,10 @@ export const Section = styled.section `
         z-index: 999;
         width: 10rem;
         height: 300px;
-        left: 100%;
         background-color: ${colors.forth};
-        margin-left: 84px;
+        margin-right: 84px;
         transition: all ease .2s;
-
+        display: none;
 
         a{
             text-decoration: none;
@@ -88,7 +87,8 @@ export const Section = styled.section `
     }
 
     .hamburguer:checked ~ ul{
-        margin-left: 0;
-        left: 92%;
+        margin-right: 0;
+        right: 0;
+        display: block;
     }
 `

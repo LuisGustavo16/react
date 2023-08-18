@@ -4,7 +4,7 @@ import * as S from "./style"
 export function Adicionar() {
     return (
         <S.Section>
-            <section>
+            <section className="caixa">
                 <input type="text" />
             </section>
 
