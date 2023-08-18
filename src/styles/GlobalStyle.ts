@@ -21,4 +21,4 @@ export const colors = {
     hover: "#d0b9f5",
     botao: "#00a50b",
     botaoHover: "#006b0b",
-  }
+}

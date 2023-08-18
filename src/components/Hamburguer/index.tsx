@@ -22,7 +22,7 @@ export function Hamburguer() {
                     <a href="">
                         <li>Ajuda</li>
                     </a>
-                    <a href="">
+                    <a href="/Ajustes">
                         <li>Ajustes</li>
                     </a>
                 </ul>
