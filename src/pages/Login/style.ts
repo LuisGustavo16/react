@@ -36,13 +36,13 @@ export const Section = styled.section `
 
     }
 
-    .botao {
-        display: grid;
+    .botao2 {
+        display: flex;
         justify-content: center;
         align-items: center;
-        
+        gap: 1rem;
 
-        .enviar {
+        .enviar2 {
             height: 3rem;
             width: 13rem;
             border-radius: 6rem;

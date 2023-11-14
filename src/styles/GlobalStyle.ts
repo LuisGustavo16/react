@@ -1,5 +1,5 @@
 import {createGlobalStyle} from "styled-components"
-
+import 'react-toastify/dist/ReactToastify.css';
 export const GlobalStyle = createGlobalStyle`
 
 *{
@@ -19,6 +19,6 @@ export const colors = {
     white: "#fff",
     forth: "#F2EAFF",
     hover: "#d0b9f5",
-    botao: "#00a50b",
+    botao: "#2d7406",
     botaoHover: "#006b0b",
 }

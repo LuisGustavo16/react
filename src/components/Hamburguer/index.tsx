@@ -19,8 +19,8 @@ export function Hamburguer() {
                     <a href="/Cadastro">
                         <li>Cadastrar</li>
                     </a>
-                    <a href="">
-                        <li>Ajuda</li>
+                    <a href="Login">
+                        <li>Login</li>
                     </a>
                     <a href="/Ajustes">
                         <li>Ajustes</li>
