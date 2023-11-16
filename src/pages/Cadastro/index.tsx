@@ -37,37 +37,47 @@ export function Cadastro() {
   }
   return (
     <S.Section>
-      <h1>Cadastre-se</h1>
       <form method="post" onSubmit={handleSubmit}>
-        <label htmlFor="nome">Nome</label>
+        <h1>CADASTRO</h1>
         <div>
-          <BsFillPersonFill />
+          <label htmlFor="nome">Nome</label>
           <input type="text" name="name" id="nome" placeholder="Nome"
             onChange={(e) => handleChange({ name: e.target.value })}
             value={formData?.name}
           />
         </div>
-        <label htmlFor="email">E-mail</label>
+
+
         <div>
-          <MdEmail />
+          <label htmlFor="email">E-mail</label>
           <input type="email" name="email" id="email" placeholder="E-mail"
             onChange={(e) => handleChange({ email: e.target.value })}
             value={formData?.email}
           />
         </div>
-        <label htmlFor="senha">Senha</label>
+
+
         <div>
-          <FaKey />
+          <label htmlFor="senha">Senha</label>
           <input type="password" name="senha" id="senha" placeholder="Senha"
             onChange={(e) => handleChange({ password: e.target.value })}
             value={formData?.password}
           />
         </div>
-        <p>
-          Já possui conta? <Link to="/Login">Faça o login</Link>
-          <button type="submit">Salvar</button>
-        </p>
+
+        <div className="botao">
+          <button type="submit">CADASTRAR</button>
+        </div>
+
       </form>
+
+      <a href="/Login">
+        <div className="logar">
+          <h1 className="login">LOGIN</h1>
+        </div>
+      </a>
+
+
     </S.Section>
   );
 };
