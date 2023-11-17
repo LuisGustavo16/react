@@ -1,10 +1,8 @@
-import React from "react";
 import * as S from "./style"
-
 
 export interface ICard {
     nome: string
-    nota: int
+    nota: any
 }
 
 export const Card = ({ nome, nota }: ICard) => {

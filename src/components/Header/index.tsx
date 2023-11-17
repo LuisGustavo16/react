@@ -1,4 +1,3 @@
-import { GlobalStyle } from "../../styles/GlobalStyle"
 import * as S from "./style"
 import Logo from "../../assests/logo.png"
 import { ComponentHamburguer } from ".."

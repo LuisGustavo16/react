@@ -1,6 +1,5 @@
 import Cenoura from "../../assests/cenoura.png"
 import Beterraba from "../../assests/beterraba.png"
-import React from "react"
 import * as S from "./style"
 
 export function Home() {

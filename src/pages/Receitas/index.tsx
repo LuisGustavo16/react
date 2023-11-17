@@ -1,4 +1,3 @@
-import React from "react"
 import { dados } from "../../dados/index"
 import * as S from "./style"
 import { ComponentCard } from "../../components"

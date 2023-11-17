@@ -1,4 +1,3 @@
-import React from "react";
 import Pixi from "../../assests/pix.png"
 import * as S from "./style"
 

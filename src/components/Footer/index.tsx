@@ -1,4 +1,3 @@
-import React from "react";
 import Instagram from "../../assests/instagram.png"
 import Whatsapp from "../../assests/whastapp.png"
 import * as S from "./style"

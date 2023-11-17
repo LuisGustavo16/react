@@ -1,8 +1,5 @@
 import { FormEvent, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { FaKey } from "react-icons/fa";
-import { BsFillPersonFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import * as S from "./style";
 import { IErrorResponse, IUser } from "../../interfaces/user.inteface";
