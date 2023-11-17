@@ -12,13 +12,13 @@ export const Section = styled.section `
         width: 20%;
         height: 50%;
         display: grid;
-        justify-content: center;
+        
         align-items: center;
-        background-color: ${colors.secondary};
+        background-color: ${colors.forth};
         border-radius: 2rem;
 
         label {
-            color: ${colors.forth};
+            color: ${colors.black};
             font-family: "Odor Mean Chey", serif;
         }
 

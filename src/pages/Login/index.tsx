@@ -1,11 +1,10 @@
 import { FormEvent, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { FaKey } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../../hooks/authHook";
 import { IErrorResponse, IUser } from "../../interfaces/user.inteface";
 import { AxiosError } from "axios";
+import * as S from "./style"
 
 export function Login() {
   const navigate = useNavigate();
@@ -34,31 +33,30 @@ export function Login() {
   }
 
   return (
-    <>
-      <h1>Login</h1>
+    <S.Section>
       <form method="post" onSubmit={handleSubmit}>
-        <label htmlFor="email">E-mail</label>
+        <h1>Login</h1>
+
         <div>
-          <MdEmail />
+          <label htmlFor="email">E-mail</label>
           <input type="email" name="email" id="email" placeholder="E-mail"
             onChange={(e) => handleChange({ email: e.target.value })}
             value={formData?.email}
           />
         </div>
-        <label htmlFor="senha">Senha</label>
+
         <div>
-          <FaKey />
+          <label htmlFor="senha">Senha</label>
           <input type="password" name="senha" id="senha" placeholder="Senha"
             onChange={(e) => handleChange({ password: e.target.value })}
             value={formData?.password}
           />
         </div>
-        <p>
-          Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
-          <button type="submit">Entrar</button>
-        </p>
+
+        <button type="submit">Entrar</button>
+
       </form>
-    </>
+    </S.Section>
   );
 };
 
