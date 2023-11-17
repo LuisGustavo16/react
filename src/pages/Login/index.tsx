@@ -34,6 +34,13 @@ export function Login() {
 
   return (
     <S.Section>
+
+      <a href="/Cadastro">
+        <div className="logar">
+          <h1 className="login">CADASTRAR</h1>
+        </div>
+      </a>
+
       <form method="post" onSubmit={handleSubmit}>
         <h1>Login</h1>
 
@@ -53,9 +60,12 @@ export function Login() {
           />
         </div>
 
-        <button type="submit">Entrar</button>
-
+        <div className="botao">
+          <button type="submit">Entrar</button>
+        </div>
+        <a className="home" href="/">Home</a>
       </form>
+
     </S.Section>
   );
 };
